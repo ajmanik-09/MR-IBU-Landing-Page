@@ -140,8 +140,24 @@ const INSIGHT_TYPES = [
      - id:       A short unique code (2-3 letters). Example: 'kr'
      - name:     The display name. Example: 'South Korea'
      - flagCode: The 2-letter country code for the flag image.
-                 Find codes at: https://flagcdn.com
-                 Examples: 'us'=USA, 'gb'=UK, 'jp'=Japan, 'kr'=South Korea
+                 The flag is automatically loaded from the internet using this code,
+                 so it must be the correct code — no image uploads needed.
+
+                 HOW TO FIND THE RIGHT CODE:
+                 1. Go to: https://flagcdn.com
+                 2. Scroll down to the country list — codes are shown next to each country name.
+                 3. Use that 2-letter code as the flagCode value.
+
+                 WATCH OUT — some codes are not what you'd expect:
+                   'gb' = UK (not 'uk')
+                   'es' = Spain (not 'sp')
+                   'sa' = Saudi Arabia (not 'ksa')
+                   'kr' = South Korea
+                   'us' = USA
+
+                 QUICK CHECK: Once added, paste this into your browser to verify the flag loads:
+                 https://flagcdn.com/w80/YOUR_CODE_HERE.png
+                 (Replace YOUR_CODE_HERE with the code you used, e.g. https://flagcdn.com/w80/kr.png)
 
    To REMOVE a country, delete the entire line { id: ..., name: ..., flagCode: ... },
    ============================================================================ */
