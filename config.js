@@ -171,7 +171,8 @@ const CMH_CONFIG = {
         { id: 'pl',  name: 'Poland',        flagCode: 'pl' },
         { id: 'br',  name: 'Brazil',        flagCode: 'br' },
         { id: 'uk',  name: 'UK',            flagCode: 'gb' },
-        { id: 'in',  name: 'India',         flagCode: 'in' }
+        { id: 'in',  name: 'India',         flagCode: 'in' },
+        { id: 'cn',  name: 'China',         flagCode: 'cn' }
     ],
 
     /* ── Dashboard Links (Power BI URLs) ───────────────────────────────────
@@ -227,7 +228,8 @@ const CMH_CONFIG = {
                 'pl':  { url: '#', status: 'planned' },
                 'br':  { url: 'https://app.powerbi.com/groups/me/reports/5a32f186-c1c4-4ee0-9623-91e571a3e78f/f8cc4edea49686754007?ctid=18a59a81-eea8-4c30-948a-d8824cdc2580&experience=power-bi', status: 'present' },
                 'uk':  { url: 'https://app.powerbi.com/groups/me/reports/faddb2e5-f408-4224-b9de-5823ba389ab3/f8cc4edea49686754007?ctid=18a59a81-eea8-4c30-948a-d8824cdc2580&experience=power-bi', status: 'present' },
-                'in':  { url: 'https://app.powerbi.com/groups/me/reports/ffbc8dd6-be5a-4288-9fa5-4ce35911a433/f8cc4edea49686754007?experience=power-bi', status: 'present' }
+                'in':  { url: 'https://app.powerbi.com/groups/me/reports/ffbc8dd6-be5a-4288-9fa5-4ce35911a433/f8cc4edea49686754007?experience=power-bi', status: 'present' },
+                'cn':  { url: 'https://app.powerbi.com/groups/me/reports/bca148b4-e541-48dc-9abc-772d5cb1d29d/f8cc4edea49686754007?inTeams=true&ctid=18a59a81-eea8-4c30-948a-d8824cdc2580&experience=power-bi, status: 'present' }
             },
             'consumer': {
                 'uk': { url: '#', status: 'planned' }, 'de': { url: '#', status: 'planned' }, 'br': { url: '#', status: 'planned' },
